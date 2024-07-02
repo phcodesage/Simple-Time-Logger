@@ -1,6 +1,5 @@
 # Simple Time Logger
 
-![Time Logger](https://via.placeholder.com/150)
 
 Simple Time Logger is an Electron-based desktop application designed to help you log your work start and end times easily. It also prompts you to enter tasks completed during your work session. The application is built using modern web technologies and follows material design principles.
 
@@ -31,3 +30,6 @@ Simple Time Logger is an Electron-based desktop application designed to help you
    ```sh
    git clone https://github.com/phcodesage/Simple-Time-Logger.git
    cd Simple-Time-Logger
+
+2. **Start the app**:
+    npm start
