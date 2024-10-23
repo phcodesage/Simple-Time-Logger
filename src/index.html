@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time Logger v1.6</title>
+    <title>Time Logger App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <input id="time-in" type="text" readonly class="time-display" value="Time In: Not logged yet">
-        <input id="time-out" type="text" readonly class="time-display" value="Time Out: Not logged yet">
-        <button id="log-time-in" class="action-button">START WORK</button>
-        <button id="log-time-out" class="action-button">END WORK</button>
+        <input type="text" id="time-in" class="time-display" readonly placeholder="Time In:">
+        <input type="text" id="time-out" class="time-display" readonly placeholder="Time Out:">
+        <div id="timer-display" class="time-display">Stand Up Timer: 30:00</div>
+        <button id="log-time-in" class="action-button">Log Time In</button>
+        <button id="log-time-out" class="action-button">Log Time Out</button>
     </div>
     <script src="renderer.js"></script>
 </body>
